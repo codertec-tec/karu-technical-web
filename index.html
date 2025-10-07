@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KARU Technical & Coding Department</title>
+  <style>
+    :root {
+      --green: #2ecc71;
+      --orange: #f39c12;
+      --blue: #2980b9;
+      --light-bg: #f8f9fa;
+      --dark-text: #2c3e50;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background-color: var(--light-bg);
+      color: var(--dark-text);
+    }
+    header {
+      background: linear-gradient(90deg, var(--green), var(--blue));
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      background-color: var(--orange);
+      text-align: center;
+      padding: 0.7rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 10%;
+    }
+    section h2 {
+      color: var(--blue);
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+    .about p, .mission p, .programs p, .contact p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .programs ul {
+      list-style-type: square;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+    footer {
+      background-color: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      background-color: var(--green);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    .btn:hover {
+      background-color: var(--orange);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KARU Technical & Coding Department</h1>
+    <p>Empowering students with skills in coding, innovation, and GIS technology.</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>The KARU Technical & Coding Department is a student-led innovation hub under Karatina University GIS Club. 
+    We focus on equipping students with practical technical skills in software development, data science, and geospatial technology.</p>
+    <a href="#contact" class="btn">Join Us</a>
+  </section>
+  <section id="mission" class="mission" style="background-color:#eef6ff;">
+    <h2>Our Mission</h2>
+    <p>To inspire innovation through coding, research, and collaboration — empowering the next generation of tech leaders and problem solvers.</p>
+  </section>
+  <section id="programs" class="programs">
+    <h2>Programs We Offer</h2>
+    <p>We offer hands-on learning and projects in various technology fields including:</p>
+    <ul>
+      <li>Web & Mobile App Development</li>
+      <li>Python Programming & Automation</li>
+      <li>GIS & Remote Sensing (with ArcGIS, QGIS, and GEE)</li>
+      <li>Data Science and Visualization</li>
+      <li>Tech Mentorship & Hackathons</li>
+    </ul>
+  </section>
+  <section id="contact" class="contact" style="background-color:#eafaf1;">
+    <h2>Contact Us</h2>
+    <p>Email: <strong>karucodingdept@gmail.com</strong></p>
+    <p>Location: Karatina University Main Campus</p>
+    <p>Follow us on:
+      <a href="#" style="color:var(--blue); font-weight:bold;">Facebook</a> | 
+      <a href="#" style="color:var(--orange); font-weight:bold;">Instagram</a> | 
+      <a href="#" style="color:var(--green); font-weight:bold;">GitHub</a>
+    </p>
+  </section>
+  <footer>
+    <p>© 2025 KARU Technical & Coding Department | Designed with 💻 and 💡 by Karu Tech Team</p>
+  </footer>
+</body>
+</html>
